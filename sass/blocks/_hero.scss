@@ -1,0 +1,328 @@
+
+
+.main {
+  background-color: #014E56;
+  
+}
+
+
+.hero {
+  position: relative;
+  padding-top: 56px;
+  padding-bottom: 250px;
+  
+  &::after {
+    position: absolute;
+    top: calc(50% - 207px);
+    left: calc(50% - 860px);
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    content: "";
+  }
+  
+  
+  &::before {
+    position: absolute;
+    top: calc(50% + 192px);
+    left: calc(50% + 110px);
+    width: 358px;
+    height: 200px;
+    background-image: url(../../images/bottomback.png);
+    background-repeat: no-repeat;
+    background-size: 358px 200px;
+    content: "";
+  }
+  
+  
+}
+
+
+.hero__iner {
+  display: flex;
+  align-items: center;
+}
+
+.hero__iner__box {
+  max-width: 635px;
+  width: 100%;
+}
+
+.hero__iner__box__tittle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px; 
+  color: #FFFFFF
+}
+
+
+.hero__iner__box__tittle > strong {
+  color: #F67E7E;
+}
+
+
+.hero__iner__text {
+  max-width: 445px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.hero__iner__text__top {
+  display: inline-block;
+  width: 50px; 
+  height: 4px;
+  background: #79C8C7;
+  margin-bottom: 79px;
+}
+
+
+
+
+.hero__iner__text > p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .hero::after {
+    background-image: url(../../images/back@2x.png);
+    
+  }
+  
+  .hero::before {
+    background-image: url(../../images/bottomback@2x.png);
+    
+  }
+} 
+
+
+
+
+@media only screen  and (max-width:1281px) {
+  
+  
+  .hero::before {
+    top: calc(50% + 371px);
+    left:  calc(50% + 65px );
+    
+  }
+  
+  
+}
+
+
+
+
+
+@media only screen  and (max-width:1061px) {
+  
+  
+  .hero::before {
+    top: calc(50% + 253px);
+    left:  calc(50% + 45px );
+    
+  }
+  
+  
+}
+
+
+@media only screen  and (max-width:1281px) {
+  
+  
+  .hero::before {
+    top: calc(50% + 371px);
+    left:  calc(50% + 65px );
+    
+  }
+  
+  
+}
+
+
+@media only screen  and (max-width:805px) {
+  
+  .hero {
+    padding-top: 56px;
+    padding-bottom: 250px;
+  }
+  
+  .hero::before {
+    top: calc(50% + 237px);
+    left:  calc(50% - 200px );
+    
+  }
+  
+  
+  .hero__iner__text {
+    margin-right: 20px;
+  }
+  
+  
+  .hero__iner__text__top {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+  }
+  
+  .hero__iner__box__tittle {
+    margin-right: 20px;
+    
+  }
+  
+  .hero__iner {
+    flex-direction: column;
+  }
+  
+  .hero__iner__box {
+    margin-bottom: 20px;
+  }
+  
+  .hero__iner__text__top {
+    display: none;
+    text-align: center;
+    
+  }
+  
+  .hero__iner__text {
+    margin-right: 0px;
+  }
+}
+
+
+
+@media only screen  and (max-width:769px) {
+  
+  .hero {
+    padding-top: 56px;
+    padding-bottom: 250px;
+  }
+  
+  .hero::before {
+    top: calc(50% + 430px);
+    left:  calc(50% - 200px );
+    
+  }
+  
+  
+}
+
+
+
+@media only screen  and (max-width:605px) {
+  
+  .hero::before {
+    top: calc(50% + 265px);
+    
+  }
+  
+  .hero__iner__box__tittle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .hero__iner__text__top {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  
+  
+  
+}
+
+
+
+
+@media only screen  and (max-width:426px) {
+  
+
+  .hero {
+    padding-top: 56px;
+    padding-bottom: 197px;
+  }
+
+  .hero::before {
+    top: calc(50% + 270px);
+    left:  calc(50% - 180px );
+    
+  }
+  
+  .hero__iner {
+    padding-top: 3px;
+  }
+  
+  .hero__iner__box__tittle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .hero__iner__text__top {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  
+  
+  
+}
+
+@media only screen  and (max-width:376px) {
+  
+  .hero::before {
+    top: calc(50% + 350px);
+    left:  calc(50% - 180px );
+    
+  }
+  
+  
+  
+  
+}
+
+
+
+@media only screen  and (max-width:360px) {
+  
+  .hero::before {
+    top: calc(50% + 192px);
+    left:  calc(50% - 180px );
+    
+  }
+  
+  
+  
+}
+
+
+@media only screen  and (max-width:280px) {
+  
+  .hero::before {
+    top: calc(50% + 220px);
+    left:  calc(50% - 180px );
+    
+  }
+  
+  
+  
+}
