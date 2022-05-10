@@ -35,6 +35,13 @@
   line-height: 28px;
 }
 
+
+.header__link:hover {
+background-color: #fff;
+color: #002529;
+}
+
+
 .menu {
   margin: 0;
   padding: 0;
@@ -57,6 +64,7 @@
 
 
 
+
 .menu__link {
   text-decoration: none;
   font-weight: 600;
@@ -65,6 +73,10 @@
   color: #fff;
 }
 
+
+.menu__link:hover {
+  color: #F67E7E;
+}
 
 .site-header__burger-btn {
   display: none;
