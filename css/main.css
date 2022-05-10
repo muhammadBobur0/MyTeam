@@ -540,6 +540,7 @@ img {
 
 .main {
   background-color: #014E56;
+  overflow: hidden;
 }
 
 .hero {

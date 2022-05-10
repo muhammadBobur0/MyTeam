@@ -2,7 +2,7 @@
 
 .main {
   background-color: #014E56;
-  
+  overflow: hidden;
 }
 
 
@@ -10,6 +10,7 @@
   position: relative;
   padding-top: 56px;
   padding-bottom: 250px;
+
   
   &::after {
     position: absolute;
