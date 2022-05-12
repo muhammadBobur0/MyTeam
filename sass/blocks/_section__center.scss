@@ -1,0 +1,525 @@
+.main__section__bulid {
+  background-color: #012F34;
+  background-image: url(../images/bacsec.png);
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 758px) bottom ;
+}
+
+.main__section__bulid__box {
+  display: flex;
+  align-items: center;
+  padding: 140px 0;
+  justify-content: space-between;
+}
+
+
+.main__section__bulid__box__span {
+  display: inline-block;
+  margin-bottom: 54px;
+  max-width: 50px;
+  width: 100%;
+  background-color: #F67E7E;
+  height: 4px;
+}
+
+
+.main__section__bulid__box__title {
+  max-width: 445px;
+  
+}
+
+.main__section__bulid__box__title__item {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+  margin: 0;
+}
+
+
+.main__section__bulid__box__text__item {
+  margin-bottom: 32px;
+}
+
+.main__section__bulid__box__text__item:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.main__section__bulid__box__text {
+  max-width: 540px;
+  
+}
+
+.main__section__bulid__box__text__item__text {
+  position: relative;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px; 
+  color: #FFFFFF;
+  
+  &::before {
+    position: absolute;
+    left: calc(50% - 200px);
+    width: 72px;
+    height: 72px;
+    background-image: url(../images/sectop.svg);
+    background-repeat: no-repeat;
+    background-size: 72px;
+    content: "";
+    
+  }
+  
+}
+
+
+
+.main__section__bulid__box__text__item:nth-child(2) > .main__section__bulid__box__text__item__text::before {
+  background-image: url(../images/seccen.svg);
+  
+}
+
+.main__section__bulid__box__text__item:nth-child(3) > .main__section__bulid__box__text__item__text::before {
+  background-image: url(../images/secbot.svg);
+}
+
+
+
+.main__section__bulid__box__text__item__text__strong {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  margin-bottom: 16px;
+}
+
+
+@media only screen and (max-width:1095px) {
+  
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 548px) bottom ;
+  }
+  
+  .main__section__bulid__box__title {
+    margin-right: 65px;
+  }
+  
+}
+
+
+
+@media only screen and (max-width:1005px) {
+  
+  .main__section__bulid__box__title__item {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  
+  
+  .main__section__bulid__box__text__item__text::before {
+    
+    left: calc(50% - 230px);
+    
+  }
+}
+
+
+
+@media only screen and (max-width:970px) {
+  
+  .main__section__bulid__box__title__item {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  
+  
+  .main__section__bulid__box__text__item__text::before {
+    
+    left: calc(50% - 280px);
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width:935px) {
+  
+  .main__section__bulid__box__title__item {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  
+  
+  .main__section__bulid__box__text__item__text::before {
+    
+    left: calc(50% - 110px);
+    
+  }
+}
+
+
+@media only screen and (max-width:851px) {
+  
+  
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 425px) top ;
+  }
+  
+  .main__section__bulid__box__title {
+    margin-right: 0px;
+  }
+  
+  .main__section__bulid__box {
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 98px;
+  }
+  
+  .main__section__bulid__box__span  {
+    margin-bottom: 32px;
+  }
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 180px;  
+  }
+  
+  
+  
+  .main__section__bulid__box__title__item {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 64px;
+  }
+  
+  
+  
+  .main__section__bulid__box__text__item__text::before {
+    
+    left: calc(50% - 245px);
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width:851px) {
+  
+  .main__section__bulid__box {
+    padding: 100px 78px;
+  }
+  
+}
+
+
+@media only screen and (max-width:795px) {
+  
+  .main__section__bulid__box {
+    padding: 100px 60px;
+  }
+  
+}
+
+
+
+@media only screen and (max-width:795px) {
+  
+  .main__section__bulid__box {
+    padding: 100px 50px;
+  }
+  
+}
+
+
+@media only screen and (max-width:740px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 380px) top ;
+  }
+  
+  .main__section__bulid__box {
+    padding: 100px 40px;
+  }
+}
+
+
+@media only screen and (max-width:720px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 380px) top ;
+  }
+  
+  .main__section__bulid__box {
+    padding: 90px 35px;
+  }
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 168px;  
+  }
+  
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 360px) top ;
+  }
+  
+  
+  .main__section__bulid__box {
+    padding: 90px 35px;
+  }
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 140px;  
+  }
+
+  .main__section__bulid__box__text__item__text::before {
+    left: calc(50% - 220px);
+    
+  }
+}
+
+  
+
+
+
+
+
+@media only screen and (max-width:670px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 340px) top ;
+  }
+  
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 120px;  
+  }
+  
+}
+
+
+@media only screen and (max-width:650px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 340px) top ;
+  }
+  
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 100px;  
+  }
+  
+}
+
+
+@media only screen and (max-width:630px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 340px) top ;
+  }
+  
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 80px;  
+  }
+  
+}
+
+
+@media only screen and (max-width:610px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 320px) top ;
+  }
+  
+  
+  
+  .main__section__bulid__box__text {
+    margin-left: 70px;  
+  }
+  
+}
+
+
+
+@media only screen and (max-width:600px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 300px) top ;
+  }
+
+  .main__section__bulid__box__text {
+    text-align: center;
+  }
+  
+  
+  .main__section__bulid__box__title {
+    margin-right: auto;
+    margin-bottom: 144px;
+  }
+  
+  .main__section__bulid__box__title__item {
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .main__section__bulid__box__text {
+    margin-left: 0;
+  }
+  
+  
+  .main__section__bulid__box__text {
+    max-width: 327px;
+    width: 100%;
+  }
+  
+  .main__section__bulid__box {
+    padding: 64px 24px;
+  }
+  
+  .main__section__bulid__box__text__item {
+    margin-bottom: 136px;
+  }
+  
+
+  .main__section__bulid__box__text__item__text::before {
+    top: calc(50% - 160px);
+    left: calc(50% - 50px);
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 250px) top ;
+  }
+  
+  
+  .main__section__bulid__box__title {
+    margin-right: auto;
+    margin-bottom: 144px;
+  }
+  
+  .main__section__bulid__box__title__item {
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .main__section__bulid__box__text {
+    margin-left: 0;
+  }
+  
+  
+  .main__section__bulid__box__text {
+    max-width: 327px;
+    width: 100%;
+  }
+  
+  .main__section__bulid__box {
+    padding: 64px 24px;
+  }
+  
+  .main__section__bulid__box__text__item {
+    margin-bottom: 136px;
+  }
+  
+
+  .main__section__bulid__box__text__item__text::before {
+    top: calc(50% - 160px);
+    left: calc(50% - 50px);
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width:410px) {
+  .main__section__bulid {
+    background-image: url(../images/bacsec.png);
+    background-position: calc(50% + 205px) top ;
+  }
+  
+  
+  .main__section__bulid__box__title {
+    margin-right: auto;
+    margin-bottom: 144px;
+  }
+  
+  .main__section__bulid__box__title__item {
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .main__section__bulid__box__text {
+    margin-left: 0;
+  }
+  
+  
+  .main__section__bulid__box__text {
+    max-width: 327px;
+    width: 100%;
+  }
+  
+  .main__section__bulid__box {
+    padding: 64px 24px;
+  }
+  
+  .main__section__bulid__box__text__item {
+    margin-bottom: 136px;
+  }
+  
+
+  .main__section__bulid__box__text__item__text::before {
+    top: calc(50% - 160px);
+    left: calc(50% - 80px);
+    
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:410px) {
+  
+  .main__section__bulid__box__text__item__text::before {
+    top: calc(50% - 160px);
+    left: calc(50% - 80px);
+    
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -2,7 +2,6 @@
 
 .main {
   background-color: #014E56;
-  overflow: hidden;
 }
 
 
@@ -10,7 +9,9 @@
   position: relative;
   padding-top: 56px;
   padding-bottom: 250px;
-
+  overflow: hidden;
+  
+  
   
   &::after {
     position: absolute;
@@ -31,7 +32,7 @@
     left: calc(50% + 110px);
     width: 358px;
     height: 200px;
-    background-image: url(../../images/bottomback.png);
+    background-image: url(../images/bottomback.png);
     background-repeat: no-repeat;
     background-size: 358px 200px;
     content: "";
@@ -102,12 +103,12 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
   .hero::after {
-    background-image: url(../../images/back@2x.png);
+    background-image: url(../images/back@2x.png);
     
   }
   
   .hero::before {
-    background-image: url(../../images/bottomback@2x.png);
+    background-image: url(../images/bottomback@2x.png);
     
   }
 } 
@@ -157,7 +158,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
-@media only screen  and (max-width:805px) {
+@media only screen  and (max-width:851px) {
   
   .hero {
     padding-top: 56px;
@@ -173,6 +174,10 @@ only screen and (                min-resolution: 2dppx) {
   
   .hero__iner__text {
     margin-right: 20px;
+  }
+  
+  .hero__iner__box__tittle {
+    text-align: center;
   }
   
   
@@ -204,6 +209,15 @@ only screen and (                min-resolution: 2dppx) {
   .hero__iner__text {
     margin-right: 0px;
   }
+  
+  .hero__iner__text__top {
+    text-align: center;
+  }
+  
+  .hero__iner__text__top > p {
+    font-size: 15px;
+    line-height: 28px;
+  }
 }
 
 
@@ -219,6 +233,11 @@ only screen and (                min-resolution: 2dppx) {
     top: calc(50% + 430px);
     left:  calc(50% - 200px );
     
+  }
+
+  .hero__iner__text__top > p {
+    font-size: 15px;
+    line-height: 28px;
   }
   
   
@@ -255,12 +274,12 @@ only screen and (                min-resolution: 2dppx) {
 
 @media only screen  and (max-width:426px) {
   
-
+  
   .hero {
     padding-top: 56px;
     padding-bottom: 197px;
   }
-
+  
   .hero::before {
     top: calc(50% + 270px);
     left:  calc(50% - 180px );
@@ -303,7 +322,7 @@ only screen and (                min-resolution: 2dppx) {
 
 
 
-@media only screen  and (max-width:360px) {
+@media only screen  and (max-width:400px) {
   
   .hero::before {
     top: calc(50% + 192px);
