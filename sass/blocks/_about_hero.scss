@@ -1,0 +1,90 @@
+
+.about {
+  background-color: #014E56;
+  
+}
+
+.about__hero  {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  background-image: url(../../images/abotbg.png) ;
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: calc(50% + 780px) bottom;
+  
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #fff;
+  margin: 0;
+  
+}
+.text-box__item {
+  max-width: 730px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0;
+}
+
+
+@media only screen  and (max-width:1430px) {
+
+  .about__directors {
+    padding: 48px 0px;
+    background-color: #004047;
+  }
+  .about__hero  {
+    background-image: url(../../images/aboutbg.png) ;
+    background-repeat: no-repeat;
+    background-size: 100px 200px;
+    background-position: right bottom;
+    
+  }
+  
+  
+}
+
+
+
+@media only screen  and (max-width:980px) {
+  .title {
+    margin-right: 25px;
+  }
+  
+}
+
+
+
+@media only screen  and (max-width:860px) {
+  .text-box {
+    flex-direction: column;
+    max-width: 457px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+
+  .title {
+    margin-right: 0px;
+    margin-bottom: 24px;
+    line-height: 56px;
+  }
+
+  .text-box__item {
+
+  }
+  
+}
