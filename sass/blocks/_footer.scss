@@ -1,0 +1,160 @@
+.footer {
+  background-color: #002529;
+  padding: 56px 0;
+}
+
+
+.footer__right {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer__img {
+  display: block;
+  margin-bottom: 25px;
+  margin-right: 125px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 40px;
+}
+
+
+.footer__iner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-link:nth-child(1) {
+  margin-right: 0;
+}
+
+.footer__left__text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+
+.footer__right__contakt {
+  color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+.list__item {
+  margin-right: 16px;
+}
+
+
+.footer__left-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 51px;
+}
+
+
+
+
+@media only screen  and (max-width:851px) {
+  
+  .footer__iner {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .footer__right {
+    display: flex;
+    max-width: 689px;
+    width: 100%;
+    margin-bottom: 32px;
+    
+  }
+  
+  .footer__right__iner {
+    display: block;
+    margin-left: auto;
+  }
+  
+  
+  .footer__left {
+    display: flex;
+    max-width: 689px;
+    width: 100%;
+  }
+  
+  .list {
+    display: flex;
+    margin-right: auto;
+  }
+  
+  
+}
+
+
+
+
+@media only screen  and (max-width:605px) {
+  
+  .footer__iner {
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .footer__right {
+    display: flex;
+    max-width: 327px;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+  }
+
+  .footer__img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  
+  .footer__right__box {
+    margin-bottom: 24px;
+  }
+  
+  .footer__right__iner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 327px;
+    width: 100%;
+  }
+  
+  .list {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+}

@@ -1,0 +1,294 @@
+.main__minisection {
+  background-color: #F67E7E;
+  padding: 76px 260px;
+  background-image: url(../../images/Group.png);
+  background-repeat: no-repeat;
+  background-size: 200px 144px;
+  background-position: calc( 50% - 660px) bottom;
+}
+.main__minisection__box {
+  max-width: 917px;
+  width: 100%;
+  margin: 0 auto;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.main__minisection__box__tittle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px; 
+  color: #012F34;
+}
+
+
+.main__minisection__box__link {
+  display: inline-block;
+  margin-left: auto;
+  padding: 11px 33px;
+  border: 2px solid #012F34;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012F34;
+  border-radius: 30px;
+}
+
+.main__minisection__box__link:hover {
+  background-color: #012F34;
+  color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width:1419px) {
+  .main__minisection {   
+    background-position: left bottom;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:1250px) {
+  
+  
+  .main__minisection {
+    padding: 76px 230px;
+  }
+
+  .main__minisection__box__tittle {
+    margin-right: 20px;
+    
+  }
+  
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:1180px) {
+  
+  
+  .main__minisection {
+    padding: 76px 180px;
+  }
+
+  
+  
+  
+  
+}
+
+
+
+@media only screen and (max-width:1081px) {
+  
+  .main__minisection {
+    padding: 76px 180px;
+  }
+
+
+  .main__minisection__box__tittle {
+    font-size: 44px;
+    line-height: 44px; 
+  }
+  
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:1041px) {
+  
+  .main__minisection {
+    padding: 76px 160px;
+  }
+
+
+  .main__minisection__box__tittle {
+    font-size: 40px;
+    line-height: 40px; 
+  }
+  
+
+  .main__minisection__box__link {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:960px) {
+  
+  .main__minisection {
+    padding: 76px 140px;
+  }
+
+
+  .main__minisection__box__tittle {
+    font-size: 38px;
+    line-height: 38px; 
+  }
+  
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:900px) {
+  
+  .main__minisection {
+    padding: 76px 120px;
+  }
+
+
+  .main__minisection__box__tittle {
+    font-size: 36px;
+    line-height: 36px; 
+  }
+  
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:851px) {
+  
+  .main__minisection {
+    padding: 84px 97px;
+    background-image: url(../images/Group.png);
+    background-position: calc( 50% - 330px) calc(50% + 60px);
+
+  }
+
+
+  .main__minisection__box__tittle {
+    font-size: 32px;
+    line-height: 32px; 
+  }
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:851px) {
+  
+  .main__minisection {
+    padding: 84px 97px;
+    background-position: left calc(50% + 60px);
+
+  }
+
+  
+}
+
+
+
+@media only screen and (max-width:755px) {
+  
+  .main__minisection {
+    padding: 84px 80px;
+    background-position: left calc(50% + 60px);
+
+  }
+
+  
+}
+
+
+
+@media only screen and (max-width:715px) {
+  
+  .main__minisection {
+    padding: 84px 60px;
+    background-position: left calc(50% + 60px);
+
+  }
+
+  
+}
+
+
+
+
+
+@media only screen and (max-width:675px) {
+  
+  .main__minisection {
+    padding: 84px 45px;
+    background-position: left calc(50% + 60px);
+
+  }
+
+  
+}
+
+
+
+@media only screen and (max-width:675px) {
+  
+  .main__minisection {
+    padding: 84px 40px;
+    background-position: left calc(50% + 60px);
+
+  }
+
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width:635px) {
+  
+  .main__minisection {
+    padding: 83px 24px;
+    background-position: left calc(50% + 115px);  
+
+  }
+
+
+  .main__minisection__box {
+    text-align: center;
+    flex-direction: column;
+    max-width: 327px;
+  }
+
+
+  
+  .main__minisection__box__tittle {
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  
+  
+}
