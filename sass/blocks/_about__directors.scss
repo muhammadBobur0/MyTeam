@@ -2,6 +2,10 @@
 .about__directors {
   padding: 140px 0px;
   background-color: #004047;
+  background-image: url(../images/aboutsec.png), url(../images/bacbot.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 147px 100px;
+  background-position: calc(50% - 758px) top, calc(50% + 685px) bottom;
 }
 
 .directors__text {
@@ -20,6 +24,7 @@
   display: flex;
   align-items: center;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .directors__list__item {
@@ -30,24 +35,27 @@
   padding-top: 32px;
   padding-right: 24px;
   padding-bottom: 56px;
-  padding-left: 24px;
-  
+  padding-left: 24px;  
   text-align: center;
+  margin-right: 30px; 
+  margin-bottom: 48px;
   
-  &::after {
-    position: absolute;
-    bottom: -28px;
-    left: calc(50% - 25px);
-    width: 56px;
-    height: 56px;
-    background-color: #F67E7E;
-    border-radius: 50%;
-    background-image: url(../../images/+.png);
-    background-repeat: no-repeat;
-    box-sizing: 16px;
-    background-position: center;
-    content: "";
-  }
+}
+
+
+.directors__list__item__button {
+  position: absolute;
+  bottom: -28px;
+  left: calc(50% - 25px);
+  width: 56px;
+  height: 56px;
+  background-color: #F67E7E;
+  border-radius: 50%;
+  background-image: url(../images/+.png);
+  background-repeat: no-repeat;
+  box-sizing: 16px;
+  background-position: center;
+  border: none;
 }
 
 
@@ -73,4 +81,102 @@
   font-size: 15px;
   line-height: 25px;  
   color: #FFFFFF;
+}
+
+
+.button {
+  margin-right: 0px;
+}
+
+
+.button__text {
+  margin-bottom: 24px;
+}
+
+
+.button__icon {
+  margin-right: 16px;
+}
+
+
+.button__twiter {
+  position: absolute;
+  bottom: -28px;
+  left: calc(50% - 25px);
+  width: 56px;
+  height: 56px;
+  background-color: #79C8C7;
+  border-radius: 50%;
+  background-image: url(../images/x.svg);
+  background-repeat: no-repeat;
+  box-sizing: 16px;
+  background-position: center;
+  border: none;
+}
+
+.button__tittle {
+  margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width:1460px) {
+  
+  .about__directors {
+    background-image: url(../images/aboutsectab.png), url(../images/bacbot.png);
+    background-repeat: no-repeat;
+    background-size: 100px 200px, 147px 100px;
+    background-position: left top, right bottom;
+  }
+  
+  .directors__list__item {
+    margin-right: 10px;
+  } 
+  
+}
+
+
+
+
+@media only screen and (max-width:1160px) {
+  
+  
+  
+  .directors__list {
+    justify-content: space-around;
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width:861px) {
+  
+  .about__directors {
+    padding: 100px 0px;
+  }
+  
+  .directors__list__item {
+    max-width: 281px;
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width:622px) {
+  
+  .about__directors {
+    padding: 88px 0px;
+    background-position: left calc(50% - 1060px), right bottom;
+
+  }
+  
+  .directors__list__item {
+    max-width: 327px;
+  }
+  
+  
 }
