@@ -1,26 +1,80 @@
 .about_cliets {
   background-color: #012F34;
-  padding: 100px 0px;
 }
 
 
 .box {
-
+  padding: 100px 0px;
+  
 }
 
 
 .box__title {
-  margin: 0;
+  
   font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 70px;
 }
 
 
 .clients {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
+}
 
+
+
+@media only screen and (max-width:925px) {
+  .clients__img {
+    margin-right: 10px;
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width:860px) {
+  .clients__img {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  
+}
+
+
+
+
+@media only screen and (max-width:605px) {
+  
+  
+  .box {
+    padding: 88px 0px;
+    
+  } 
+  
+  .clients {
+    flex-direction: column;
+    
+  }
+  
+  .clients__img {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 57px;
+  }
+  
+  .box__title {
+    margin-bottom: 64px;
+  }
+  
+  
 }

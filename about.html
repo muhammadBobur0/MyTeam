@@ -30,7 +30,7 @@
     </div>    
   </header>
   
-  <main class="about">
+  <main class="about  main">
     
     <section class="about__hero ">
       <div class="container">
@@ -139,11 +139,59 @@
             Some of our clients
           </h2>
           <div class="clients">
-            <picture>
+            
+            <picture class="clients__img">
+              <source type="image/webp"  media="(max-width:865px)" srcset="./images/th.webp 1x, ./images/th@2x.webp 2x,"/>   
+              
+              <source type="image/webp" srcset="./images/Object.webp 1x, ./images/Object@2x.webp 2x," />
               
               
-              <img src="" alt="">
-              <img src="" alt="">
+              <source type="image/webp" media="(max-width:865px)" srcset="./images/th.png 1x, ./images/th@2x.png 2x,"/>
+              
+              <img  src="./images/Object.png" srcset= "./images/Object.png 1x, ./images/Object@2x.png 2x" width="165" height="28" alt="thewarg">
+              
+            </picture>
+            
+            
+            <picture class="clients__img">
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tj.webp 1x, ./images/tj@2x.webp 2x,"/>
+              
+              <source type="image/webp" srcset="./images/jakarta.webp 1x, ./images/jakarta@2x.webp 2x," />
+              
+              
+              <source type="image/webp" media="(max-width:865px)" srcset="./images/tj.png 1x, ./images/tj@2x.png 2x,"/>
+              
+              <img  src="./images/jakarta.png" srcset= "./images/jakarta.png 1x, ./images/jakarta@2x.png 2x" width="184" height="23" alt="thewarg">
+            </picture>
+            
+            
+            <picture class="clients__img"> 
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tb-tg.webp 1x, ./images/tb-tg@2x.webp 2x,"/>
+              
+              <source type="image/webp" srcset="./images/gu.webp 1x, ./images/gu@2x.webp 2x," />
+              
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tb-tg.png 1x, ./images/tb-tg@2x.png 2x,"/>
+              
+              <img  src="./images/gu.png" srcset= "./images/gu.png 1x, ./images/gu@2x.png 2x" width="180" height="28" alt="thewarg">
+            </picture>
+            
+            <picture class="clients__img">
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tec-tb.webp 1x, ./images/tec-tb@2x.webp 2x,"/>
+              
+              <source type="image/webp" srcset="./images/tech.webp 1x, ./images/tech@2x.webp 2x," />
+              
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tec-tb.png 1x, ./images/tec-tb@2x.png 2x,"/>
+              
+              <img  src="./images/tech.png" srcset= "./images/tech.png 1x, ./images/tech@2x.png 2x" width="165" height="28" alt="thewarg">
+            </picture>
+            
+            
+            <picture class="clients__img" >              
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tb-gad.webp 1x, ./images/tb-gad@2x.webp 2x,"/>              
+              <source type="image/webp" srcset="./images/gad.webp 1x, ./images/gad@2x.webp 2x," />
+              
+              <source  media="(max-width:865px)"  type="image/webp" srcset="./images/tb-gad.png 1x, ./images/tb-gad@2x.png 2x,"/>
+              <img  src="./images/gad.png" srcset= "./images/gad.png 1x, ./images/gad@2x.png 2x" width="98" height="45" alt="thewarg">
             </picture>
             
             
@@ -153,10 +201,76 @@
         </div>
         
       </div>
+    </section>    
+    
+    <section class="main__minisection">
+      <div class="container">
+        <div class="main__minisection__box">
+          <h3 class="main__minisection__box__tittle">
+            Ready to get started?
+          </h3>
+          <a class="main__minisection__box__link" href="#"> contact us </a>
+        </div>
+        
+        
+      </div>
+      
+      
     </section>
     
     
   </main>
+  
+  
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__iner">
+        
+        <div class="footer__right">
+          <div class="footer__right__box">
+            
+            <a class="footer__img" href="#"> <img src="./images/myteam.svg" alt="site-logo"></a>
+            
+            <a class="footer-link" href="./index.html"> home</a>
+            <a class="footer-link" href="#"> about</a>
+          </div>
+          
+          <div class="footer__right__iner">
+            <span class="footer__right__contakt">
+              987  Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432
+            </span>
+          </div>
+          
+        </div>
+        
+        <div class="footer__left">
+          <ul class="footer__left-list  list">
+            <li class="list__item">
+              <a class="list__item__link" href=""> <img src="./images/face.svg" width="24" height="24" alt="facebook"> </a>
+            </li>
+            <li class="list__item">
+              <a href="#"> <img src="./images/idic.svg" width="24" height="24" alt="idic"></a>
+            </li>
+            <li>
+              <a href="#"> <img src="./images/twitter.svg" width="24" height="24" alt="idic"></a>
+              
+            </li>
+          </ul>
+          
+          <span class="footer__left__text">
+            Copyright 2020. All Rights Reserved
+          </span>
+          
+        </div>
+        
+        
+        
+        
+      </div>
+    </div>
+    
+  </footer>
   
   
   

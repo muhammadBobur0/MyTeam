@@ -9,6 +9,7 @@
 }
 
 .directors__text {
+  margin: 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -56,6 +57,15 @@
   box-sizing: 16px;
   background-position: center;
   border: none;
+}
+
+
+.directors__list__item__button:hover {
+  background-color: #79C8C7;
+}
+
+.directors__list__item__button:checked {
+  background-image: url(../../images/x.svg);
 }
 
 

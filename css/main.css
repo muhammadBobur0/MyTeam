@@ -1259,6 +1259,7 @@ img {
 }
 
 .directors__text {
+  margin: 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -1309,6 +1310,14 @@ img {
           box-sizing: 16px;
   background-position: center;
   border: none;
+}
+
+.directors__list__item__button:hover {
+  background-color: #79C8C7;
+}
+
+.directors__list__item__button:checked {
+  background-image: url(../../images/x.svg);
 }
 
 .directors__list__item__img {
@@ -1577,16 +1586,66 @@ img {
 
 .about_cliets {
   background-color: #012F34;
+}
+
+.box {
   padding: 100px 0px;
 }
 
 .box__title {
-  margin: 0;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 70px;
+}
+
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 925px) {
+  .clients__img {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .clients__img {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .box {
+    padding: 88px 0px;
+  }
+  .clients {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .clients__img {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 57px;
+  }
+  .box__title {
+    margin-bottom: 64px;
+  }
 }
 
 .main__minisection {
